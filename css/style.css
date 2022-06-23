@@ -61,25 +61,37 @@ main{
 }
 .mensagem{
     margin: 5px 0;
-    min-width: 100%;
+    width: 100%;
+    height: auto;
     background-color: #DCDCDC;
-    min-height: 3em;
-    display: flex;
-    align-items: center;
-    
+    padding: 5px;
 }
 
-.mensagem span{
-    margin: 0 3px;
-}
-
-.mensagem span:first-child{
+.hour{
     font-weight: 300;
     color: #AAAAAA;
 }
-.mensagem span:nth-child(2){
+.from{
     font-weight: 700;
 }
-.mensagem span:nth-child(4){
+.to{
     font-weight: 700;
+}
+
+
+.text{
+    height: auto;
+    word-break: break-all;
+}
+
+.status{
+    background-color: #DCDCDC;
+}
+
+.message{
+    background-color: #ffffff;
+}
+
+.private{
+    background-color: #FFDEDE;
 }
